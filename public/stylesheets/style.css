@@ -1,0 +1,921 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+        font-family: "Poppins", sans-serif;
+      }
+      
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color:#222
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color:#222
+}
+h4{
+    font-size: 20px;
+    color:#222
+}
+h6{
+    font-size: 12px;
+    color:#222
+}
+p{
+    margin: 15px 0 20px 0;
+    font-size: 16px;
+    color:#222
+    
+}
+
+/* sigup */
+.dropbtn{
+    border:none;
+   
+    background-color: white;
+    font-size: 1.10em;
+    transition: 0.3s ease;
+   /* padding: 0 20px; */
+}
+.dropbtn:hover{
+    color:red
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  .dropdown a:hover {color:red;} 
+.show{
+    display:block;
+}
+/* chat */
+#chat{
+    padding:10px;
+    margin-left:93%;
+    margin-top:20%;
+    position: fixed;
+    background-color: #e3e6ef;
+    border-radius: 50%;
+}
+#chaticon{
+    font-size: 25px;
+    color:black;
+    transition: 1s;
+   
+}
+#chaticon:hover{
+  color: rgb(240, 4, 4);
+  filter: drop-shadow(0 0 10px #fffdef);
+}
+#messages{
+    background-color: rgb(241, 240, 240);  
+    height: 50%;
+    width:50%;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top:5%;
+    border-radius: 10px;
+}
+#messageInput{
+    /* background-color: #cce7d0; */
+   height:30.33px;
+   width:80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#messageInput:hover{
+    border: 1.5px solid red;
+}
+#msg1{
+    display:flex;
+}
+#send{
+    background: none;
+    border: none;
+     height:44px;
+    width:100px;
+}
+#send img{
+    width:30px;
+    height:30px;
+    filter: hue-rotate(180deg) saturate(10000%) brightness(100%); 
+   
+}
+/* //signup */
+#image{
+    padding:20px;
+}
+legend{
+    color:rgb(6, 6, 6);
+    font-weight: 60%;
+    font-size: 100%;
+    padding : 5px 10px 10px 10px;
+}
+#signup{
+    display: flex;
+    justify-content: center;
+    padding:5% 0%  ;
+   /* background-image:url("/images/Untitled design (5).png"); */
+   
+    
+}
+#sign_up{
+    width:25%;
+    margin:50px 0px;
+    background-color: rgb(239, 236, 236);
+    padding:30px;
+    /* border-right:1px solid #222; */
+    /* border-radius: 10%; */
+}
+#signup_one{
+    /* width:100%; */
+   margin:50px 0px;
+    background-color: #cce7d0;
+    padding:30px ;
+    /* border-radius: 10%; */
+}
+fieldset{
+    /* background-image: url("/images/Untitled design (5).png"); */
+    padding:30px;
+    border-radius: 10px;
+    z-index: 2;
+    opacity:0.8;
+   /* background: transparent; */
+}
+.review{
+    display: block;
+    padding:5px;
+    border: none;
+    border-bottom: 2px solid black;
+    width:80%;
+    margin:10px 10px;}
+#username{
+    display:block;
+    padding:5px;
+    margin:10px 10px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+}
+#password{
+    display:block;
+    padding:5px;
+    margin:10px 10px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+}
+
+#email{
+    display:block;
+    padding:5px;
+    margin:10px 10px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+}  
+/* #phone{
+    display:block;
+    padding:5px;
+    margin:5px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+} */
+#submit{
+    margin:5px ;
+    padding:5px;
+    border-radius:5px;
+    background-color:white;
+    color:black;
+}
+
+#submit1{
+    margin:5px ;
+    padding:5px;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+}
+
+/* //login */
+#login{
+  
+    display: flex;
+    justify-content: center;
+    padding:5% 0%  ;
+   /* background-image:url("/images/Untitled design (5).png"); */
+   
+    
+}
+#login_one{
+    margin:50px 0px;
+    background-color: #cce7d0;
+    padding:30px ;
+}
+#login_p a{
+    text-decoration: none;
+}
+/* forgotpassword */
+#forgot{
+    display: flex;
+    justify-content: center;
+    padding:5% 0%  ;
+}
+#forgot_one{
+    margin:50px 0px;
+    background-color: #cce7d0;
+    padding:30px ;
+}
+#newpassword{
+    display:block;
+    padding:5px;
+    margin:10px 10px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+}
+#confirmpassword{
+    display:block;
+    padding:5px;
+    margin:10px 10px;
+    width:80%;
+    border:transparent;
+    border-bottom: solid 2px black;
+}
+/* //mainpage */
+#tblhead{
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+/* #nav_bar{
+    display:column;
+    align-items: center;
+   justify-content: center;
+   
+  
+}
+#nav_bar li{
+    list-style: none;
+    padding: 10px 20px;
+   border:1px solid rgb(253, 4, 46);
+}
+#nav_bar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+    padding:10px 0px;
+    transition: 0.3s ease;
+}
+#nav_bar li a:hover,#navbar li a.active{
+    color:red;
+} */
+#mainpage{
+    display:flex;
+    /* background-color: rgb(250, 215, 221); */
+   padding:10px;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+#mainpage_one{
+    background-color: rgb(241, 240, 240);
+    width:30%;
+    margin:20px 30px;
+    /* height:100%; */
+}
+#tableone{
+ /* border: 1px solid black; */
+ width:100%;
+}
+#tblhead{
+    border: 1px solid black;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#tblbody{
+    border: 1px solid black;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainpage_two{
+    margin:20px 30px;
+    
+    /* height:100%; */
+    width:60%;
+    background-color: rgb(241, 240, 240);
+    /* border:1px solid rgb(253, 4, 46); */
+}
+/* #body1{
+    background-color: rgb(250, 215, 221);
+} */
+
+
+/* logo */
+.logo{
+    width:130px;
+    height:100px;
+
+}
+#header1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color:white;
+    /* box-shadow: 0 5PX 13PX rgba(red, green, blue, alpha); */
+    /* box-shadow: 3px 3px 3px rgb(172, 172, 172); */
+
+}
+#header3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color:white;
+    /* box-shadow: 0 5PX 13PX rgba(red, green, blue, alpha); */
+    box-shadow: 3px 3px 3px rgb(232, 230, 230);
+
+}
+.sectionp{
+    padding: 40px 80px;
+}
+.sectionp1{
+    box-shadow: 3px 3px 3px rgb(232, 230, 230) inset;
+    padding: 40px 80px;
+
+}
+/*nav bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,#navbar li a.active{
+    color:red;
+}
+#mobile{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#close{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+/*nav bar*/
+/*home page*/
+.hero1{
+    
+   background-image:url("/images/Untitled design (5).png");
+    height:90vh ;
+    width: 100%;
+    background-position: top 15% right 0%;
+    background-size: cover;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    
+}
+.hero1 h4{
+    padding:15px;
+    
+}
+.hero1 button{
+    background-image: url("/images/Purple Cute Butterfly Desktop Wallpaper (1).png");
+    background-color: transparent;
+    font-size:30px;
+    color:white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+}
+
+/*homepage*/
+/*feature*/
+#feature .febox{
+    width:15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:0px 10px;
+    height: 50%;
+    border: 1px solid white;
+   
+    
+   border-radius: 10%;
+}
+.febox img{
+    width:100%;
+
+}
+.febox h6{
+     
+     color:purple;
+    font-size: 12px;
+    
+}
+
+#feature .febox:hover{
+    box-shadow: 20px 20px 34px rgba(70,62,221,0.2);
+   }
+#feature {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    text-align: center;
+}   
+#head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#textnew{
+    text-align: center;
+    margin: 20px 0px;
+}
+#products {
+    
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+#products .procontainer{
+    object-fit: contain;
+    width: 23%;
+    border-radius: 10%;
+    padding: 10px 12px ;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+    
+ 
+}
+#products .procontainer h6{
+    font-size: 20px;
+}
+#products .procontainer h4{
+    font-size: 20px;
+  
+}
+#products .procontainer img{
+    width:100%;
+    border-radius: 10%;
+}
+#products .procontainer img:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+}
+.pro  a{
+    color:gold;
+}
+.pro  #shop{
+    color:red;
+    font-size: 23px;
+    
+}
+/* banner */
+.banner{
+    background-image: url("/images/b.png");
+    height: 50vh;
+    width: 100%;
+    background-position: center ;
+    background-size:cover;
+    color:black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.banner button{
+   
+    
+    background-color: black;
+    font-size:30px; 
+    color:white;
+    border: 0;
+   
+
+}
+/* newsletter */
+.news{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-image: url("/images/Untitled design (9).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0px;
+    padding:80px;
+   
+ }
+ .news .letter{
+    color: black;
+ }
+ #form input {
+    height: 3.125rem;
+    padding: 0 1.25px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+ }
+ #form button {
+    height: 3.125rem;
+    padding: 0 1.25px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    width: 50%;
+ }
+ .news #form{
+    display: flex;
+    width:40%;
+ }
+ #form ::placeholder{
+    font-size: medium;
+ }
+ /* footer */
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+   
+}
+footer li a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+#follow{
+    padding: 20px 0px 20px 0px;
+}
+#about{
+   
+    padding: 20px 0px;
+}
+#myacc{
+  
+    padding: 20px 0px;
+}
+footer h4{
+    margin-bottom: 14px;
+}
+footer p{
+    margin-bottom: 13px;
+}
+#install{
+    padding: 20px 0px;
+}
+footer li a:hover,footer li a.active{
+    color: plum;
+}
+footer #copy{
+    width: 100%;
+    text-align: center;
+}
+/*shop*/
+.hero2{
+    background-image: url("/images/Untitled design (8).png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:white;
+    padding: 80px;
+    margin: 20px 0px;
+  /* width:50%; */
+  height: auto;
+}
+#pageno{
+    text-align: center;
+    margin-top: 50px;
+}
+#pageno a{
+    text-decoration: none;
+    background-color:red;
+    padding:8px 20px;
+    border-radius: 10px;
+    color:white;
+}
+/*sproducts*/
+#prodetails{
+    display: flex;
+    justify-content: space-between;
+}
+#prodetails .single-pro-image{
+   width:30%;
+   margin-left:50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+   flex-basis: 24% ;
+   cursor: pointer;
+}
+#prodetails #imgdetails{
+    width:60%;
+    padding-top: 30px;
+}
+#prodetails #imgdetails h4{
+    padding:10px 0px;
+}
+#prodetails #imgdetails button{
+    background-color: purple;
+    color:white;
+}
+#prodetails #imgdetails #number{
+    width:50px;
+}
+
+#prodetails #imgdetails h3{
+    padding:10px 0px;
+}
+/*blog*/
+#blog{
+    background-image: url("/images/Untitled design (10).png");
+    padding:150px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px ;
+}
+#blog h1{
+    color:white;
+    text-align: center;
+}
+#blog h3{
+    color:red;
+    text-align: center;
+}
+#readblog #blogs{
+    width:40%;
+    height:100%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+#readblog{
+    display: flex;
+}
+#belowblog{
+    width:50%;
+    padding-left: 30px;
+}
+/* contact */
+#app{
+    text-align: center;
+}
+#app .video1{
+     width:50%;
+     background-position: center;
+     margin:50px 350px;
+     
+}
+#aboutus h4{
+    margin-bottom: 20PX;
+    margin-left: 30PX;
+    display: inline;
+   
+}
+#aboutus{
+    margin-top: 50PX;
+}
+#aboutus i{
+    margin-bottom: 20PX;
+    margin-left: 30PX;
+    display: inline;
+    
+}
+#abtus{
+    margin-bottom: 20PX;
+}
+#msg{
+    margin-bottom: 20PX;
+    
+}
+#msg h2{
+    margin-bottom: 20PX;
+    padding-left: 30px;
+}
+#msg #review{
+    margin-bottom: 20PX;
+    /* margin-left: 30px; */
+   
+}
+#msg #review input{
+    width:400px;
+}
+#msg #review input #rev{
+    height: 600px;
+}
+#msg #review textarea{
+    width:400px;
+    margin-bottom: 20PX;
+}
+#msg #review button{
+      color: red;
+      background-color: black;
+      width:150px;
+      height:30%;
+      font-size: 15px;
+      border-radius: 10px;
+      
+}
+/* cart */
+#cartdetails table thead h4{
+    font-weight: 100px;
+    color: red;
+}
+#cartdetails table thead,tbody{
+   border: 35px solid white;
+}
+#cartdetails {
+    margin: 50px;
+}
+#cartdetails table{
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space:nowrap;
+    justify-content: space-between;
+}
+#cartdetails table img{
+    width:70px;
+}
+#cartdetails table input{
+      width:50px;
+    
+}
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        position: fixed;
+        top: 0; 
+        right: -300px;
+        height: 100vh;
+        width:300px;
+        background-color: #e3e6ef;
+        box-shadow: 0px 40px 60px rgba(0,0,0,0.1); 
+        padding: 40px 20px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right:0px;
+        
+    }
+    #navbar li{
+        margin-bottom: 15px;
+      
+    }
+    #igbag{
+        display: none;
+    }
+    
+    #mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mobile i{
+        padding-left: 20px;  
+        color: black; 
+        font-size: 24px;
+    }
+    #close{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:20px;
+        
+    }
+    .hero1 {
+        height: 70vh;
+        padding:0px 80px;
+        background-position: top 15% right 30%;
+  
+    }
+    #feature {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px 0px;
+    }
+    #feature .febox {
+        width: 35%;
+        margin:30px 15px;
+        padding: 0px 10px;
+        height: 50%;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+    #products {
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    #products .procontainer {
+        width: 100%;
+        border-radius: 10%;
+        padding: 20px 20px;
+        border: 1px solid #cce7d0;
+        cursor: pointer;
+        transition: 0.2s ease;
+        margin-bottom: 50px;
+      
+    }
+    #products .pro{
+        padding:20px;
+    }
+    .small-img-group{
+  
+        justify-content: space-between;
+    }
+    #prodetails{
+       flex-direction: column;
+        justify-content: space-between;
+    }
+    #prodetails #imgdetails{
+        width:100%;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    #prodetails .single-pro-image{
+        width:90%;
+      
+     }
+     #app .video1{
+        width:50%;
+        background-position: center;
+        margin:50px 200px ;
+        justify-content: center;
+   }
+    
+}
